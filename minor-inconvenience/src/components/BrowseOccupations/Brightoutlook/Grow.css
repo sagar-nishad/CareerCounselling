@@ -1,0 +1,75 @@
+/* src/components/JobTable.css */
+.job-table-container {
+    background: #333; /* Dark gray background */
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(246, 237, 237, 0.2);
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 10px 0;
+  }
+  
+  .job-table-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    margin-bottom: 20px; /* Add some space between title and table */
+
+  }
+
+  .job-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background: #444; /* Slightly darker gray background for table header */
+    color: #eee; /* Light gray text color */
+    font-weight: bold;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #555; /* Slightly darker gray border */
+  }
+  
+  .job-link {
+    padding: 5px 10px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .job-link:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  
+  .view-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .view-more-button:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  
+  @media (min-width: 768px) {
+    .job-table-container {
+      max-width: 80%; /* Adjust the maximum width for desktop screens */
+    }
+    .job-table {
+      border-radius: 10px; /* Adjust border-radius as needed */
+    }
+  }
+  

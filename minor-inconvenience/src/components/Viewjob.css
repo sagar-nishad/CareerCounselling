@@ -1,0 +1,61 @@
+/* src/components/ViewJob.css */
+.view-job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #333; /* Dark gray background */
+  }
+  
+  .view-job-box {
+    width: 80%;
+    padding: 20px;
+    background-color: #444; /* Slightly darker gray background for the box */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+  }
+  
+  .job-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    margin: 10px 0;
+    text-transform: capitalize; /* Capitalize the title */
+  }
+  
+  .job-code {
+    font-size: 16px;
+    color: #aaa; /* Slightly lighter gray text color */
+    margin: 10px 0;
+  }
+  
+  .job-description {
+    font-size: 18px;
+    color: #eee; /* Light gray text color */
+    margin: 20px 0;
+    line-height: 1.5; /* Improved text spacing */
+  }
+  
+  .job-text {
+    font-size: 16px;
+    color: #aaa; /* Slightly lighter gray text color */
+    margin: 20px 0;
+  }
+  .view-details-button {
+    margin: auto;
+    width: fit-content;
+    display: block;
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details-button:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }

@@ -1,0 +1,71 @@
+/* src/components/IndustryJobs.css */
+.industry-jobs-container {
+    background: #333; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+  }
+  
+  .industry-jobs-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    margin-bottom: 20px;
+  }
+  
+  .industry-jobs-cards {
+    width: 100%; /* Occupy all available space */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .industry-jobs-card {
+    width: calc(45% - 20px); /* Adjusted card width with margins */
+    margin: 10px;
+    padding: 20px;
+    background-color: #444; /* Slightly darker gray background for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s; /* Add hover animation */
+    cursor: pointer;
+  }
+  
+  .industry-jobs-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Slightly increased shadow on hover */
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+  }
+  
+  p {
+    font-size: 16px;
+    color: #aaa; /* Slightly lighter gray text color */
+    margin: 10px 0;
+  }
+  
+  .view-job-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .view-job-button:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  

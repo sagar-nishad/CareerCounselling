@@ -1,0 +1,68 @@
+/* src/components/Industry.css */
+.industry-container {
+    background: #333; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .industry-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    margin-bottom: 20px;
+  }
+  
+  .industry-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .industry-card {
+    width: 31%; /* Wider cards */
+    margin: 10px;
+    padding: 20px;
+    background-color: #444; /* Slightly darker gray background for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s; /* Add hover animation */
+    cursor: pointer;
+  }
+  
+  .industry-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Slightly increased shadow on hover */
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+  }
+  
+  .industry-link {
+    margin-top: auto; /* Push to the bottom */
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 50px; /* Round button style */
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .industry-link:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .industry-card {
+      width: 90%; /* Adjust width for mobile devices */
+    }
+  }
+  

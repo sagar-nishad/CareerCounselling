@@ -1,0 +1,39 @@
+/* src/components/Abilities.css */
+@media only screen and (min-width: 768px) {
+    .description-container{
+        width: 80%;
+    }
+  }
+.abilities-container {
+    text-align: left;
+    margin: 20px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .abilities-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    text-decoration: underline;
+    
+  }
+  
+  .abilities-list {
+    list-style: disc;
+    padding: 0;
+  }
+  
+  .ability-item {
+    margin-bottom: 20px;
+    color: #eee; /* Light gray text color */
+  }
+  
+  .ability-description {
+    margin-top: 5px;
+    /* border: 1px solid #eee; */
+
+  }
+  .ability-description > strong {
+    color: #eee;
+  }
+  

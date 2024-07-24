@@ -1,0 +1,88 @@
+/* src/components/Cluster.css */
+.cluster-container {
+    background: #333; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .cluster-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    margin-bottom: 20px;
+  }
+  
+  .cluster-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cluster-card {
+    width: 31%; /* Wider cards */
+    margin: 10px;
+    padding: 20px;
+    background-color: #444; /* Slightly darker gray background for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    transition: transform 0.2s; /* Add hover animation */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cluster-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+  }
+  
+  p {
+    font-size: 16px;
+    color: #aaa; /* Slightly lighter gray text color */
+    margin: 10px 0;
+  }
+  
+  .view-details-button {
+    display: block;
+    margin-top: auto; /* Push to the bottom */
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details-button:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  
+  .load-more-button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .load-more-button:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .cluster-card {
+      width: 90%; /* Adjust width for mobile devices */
+    }
+  }
+  

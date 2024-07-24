@@ -1,0 +1,75 @@
+{
+    "data": [
+      [
+        [
+          "My technical skills include ",
+          null
+        ],
+        [
+          "programming",
+          "Skill"
+        ],
+        [
+          " languages like Python, Java, and C++ and worked with frameworks such as React, Angular, and Django.",
+          null
+        ]
+      ],
+      [
+        [
+          "My technical skills include programming languages like ",
+          null
+        ],
+        [
+          "Python",
+          "Knowledge"
+        ],
+        [
+          ", ",
+          null
+        ],
+        [
+          "Java",
+          "Knowledge"
+        ],
+        [
+          ", and ",
+          null
+        ],
+        [
+          "C++",
+          "Knowledge"
+        ],
+        [
+          " and worked with frameworks such as ",
+          null
+        ],
+        [
+          "React",
+          "Knowledge"
+        ],
+        [
+          ", ",
+          null
+        ],
+        [
+          "Angular",
+          "Knowledge"
+        ],
+        [
+          ", and ",
+          null
+        ],
+        [
+          "Django",
+          "Knowledge"
+        ],
+        [
+          ".",
+          null
+        ]
+      ]
+    ],
+    "is_generating": false,
+    "duration": 0.06649947166442871,
+    "average_duration": 1.3371353944142659
+  }

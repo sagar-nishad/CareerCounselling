@@ -1,0 +1,44 @@
+/* TimetableForm.css */
+.timetable-form {
+    max-width: 80%;
+    margin: 20px;
+    color: #eee;
+  }
+  
+  .timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .timetable-table th,
+  .timetable-table td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden; /* Prevent input overflow */
+  }
+  
+  .dark-input {
+    background-color: #333;
+    color: #eee;
+    border: 1px solid #555;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding in the width */
+  }
+  
+  .dark-button {
+    background-color: #000; /* Change to black */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .dark-button:hover {
+    background-color: #222; /* Darken on hover */
+  }
+  

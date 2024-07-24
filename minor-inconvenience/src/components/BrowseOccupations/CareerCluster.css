@@ -1,0 +1,72 @@
+/* src/components/CareerCluster.css */
+.career-cluster-container {
+    background: #333; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .career-cluster-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+    margin-bottom: 20px;
+  }
+  
+  .career-cluster-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .career-cluster-card {
+    width: 23%;
+    margin: 10px;
+    background-color: #444; /* Slightly darker gray background for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    transition: transform 0.2s; /* Add hover animation */
+    display: flex;
+    flex-direction: column;
+  }
+  .career-cluster-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .card-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #eee; /* Light gray text color */
+  }
+  
+  .card-link {
+    padding: 10px 20px;
+    background-color: #666; /* Dark gray button background */
+    color: #eee; /* Light gray text color */
+    text-decoration: none;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .card-link:hover {
+    background-color: #555; /* Slightly darker gray on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .career-cluster-card {
+      width: 90%; /* Adjust width for mobile devices */
+    }
+  
+    .career-cluster-card:hover {
+      transform: none; /* Remove the scale on hover for mobile devices */
+    }
+  }
+  
